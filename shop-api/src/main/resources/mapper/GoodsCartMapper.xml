@@ -1,0 +1,10 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itmk.web.goods_cart.mapper.GoodsCartMapper">
+
+    <delete id="remove">
+        delete from goods_cart where user_id = #{userId} and goods_id = #{goodsId}
+    </delete>
+</mapper>

@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itmk.web.goods_report.mapper.GoodsReportMapper">
+    <select id="getList" resultType="com.itmk.web.goods_report.entity.ReportVo">
+        select gr.report_id,gr.reason,gr.status,g.goods_name,g.image,u.nick_name,gr.report_time from goods_report as gr
+        inner join goods as g  on gr.goods_id = g.goods_id
+        inner join wx_user as u  on gr.report_user = u.user_id
+        order by gr.report_time desc
+    </select>
+</mapper>

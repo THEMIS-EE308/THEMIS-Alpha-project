@@ -1,0 +1,16 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itmk.web.goods_order.mapper.GoodsOrderMapper">
+    <select id="getList" resultType="com.itmk.web.goods_order.entity.OrderVo">
+        select go.order_id,g.goods_name,g.goods_price,g.image,u.nick_name,go.price,go.create_time from goods_order as go
+        inner join goods as g  on g.goods_id = go.goods_id
+        inner join wx_user as u on u.user_id = go.order_user
+        where 1=1
+        <if test="goodsName != null and goodsName != ''">
+           and  g.goods_name like concat('%',#{goodsName},'%')
+        </if>
+        order by go.create_time desc
+    </select>
+</mapper>

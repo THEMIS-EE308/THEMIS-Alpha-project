@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itmk.web.sys_menu.mapper.SysMenuMapper">
+    <select id="getMenuByUserId" resultType="com.itmk.web.sys_menu.entity.SysMenu">
+        SELECT m.* FROM user_menu as um
+        left join sys_menu as m
+        on um.menu_id = m.menu_id
+        where um.user_id =#{userId}
+    </select>
+</mapper>
