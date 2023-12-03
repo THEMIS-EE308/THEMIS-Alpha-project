@@ -1,0 +1,115 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.conBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+}
+.title {
+  color: #303133;
+  font-weight: bold;
+  padding: 20 rpx;
+  font-size: 30 rpx;
+}
+.price {
+  color: #FF7670;
+  padding: 20 rpx;
+  font-size: 30 rpx;
+}
+.info-fa {
+  display: flex;
+  align-items: center;
+}
+.fa-left {
+  width: 1px;
+  height: 12px;
+  border-left: 3px solid #FF7670;
+  margin-left: 10px;
+}
+.goodsInfo {
+  padding: 5px;
+  color: #F3AF28;
+}
+.info {
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+  margin-bottom: 25px;
+  padding: 0px 20px;
+}
+.useinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.navigation {
+  display: flex;
+  margin-top: 100 rpx;
+  border: solid 2 rpx #f2f2f2;
+  background-color: #ffffff;
+  padding: 16 rpx 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.navigation .left {
+  display: flex;
+  font-size: 20 rpx;
+}
+.navigation .left .item {
+  margin: 0 30 rpx;
+}
+.navigation .left .item.car {
+  text-align: center;
+  position: relative;
+}
+.navigation .left .item.car .car-num {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+.navigation .right {
+  display: flex;
+  font-size: 28 rpx;
+  align-items: center;
+}
+.navigation .right .btn {
+  line-height: 66 rpx;
+  padding: 0 30 rpx;
+  border-radius: 36 rpx;
+  color: #ffffff;
+}
+.navigation .right .cart {
+  background-color: #FF7670;
+  margin-right: 30 rpx;
+}
+.navigation .right .buy {
+  background-color: #F3AF28;
+}

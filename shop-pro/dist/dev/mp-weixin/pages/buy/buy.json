@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "求购",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "u-tabs": "../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "u-lazy-load": "../../uni_modules/vk-uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-waterfall": "../../uni_modules/vk-uview-ui/components/u-waterfall/u-waterfall",
+    "u-loadmore": "../../uni_modules/vk-uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

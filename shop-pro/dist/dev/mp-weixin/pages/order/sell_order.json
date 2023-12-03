@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "出售订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-divider": "../../uni_modules/vk-uview-ui/components/u-divider/u-divider",
+    "u-input": "../../uni_modules/vk-uview-ui/components/u-input/u-input",
+    "u-popup": "../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

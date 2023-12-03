@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的求购",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loadmore": "../../uni_modules/vk-uview-ui/components/u-loadmore/u-loadmore",
+    "u-button": "../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-popup": "../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

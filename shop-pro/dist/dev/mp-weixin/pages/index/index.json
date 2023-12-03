@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "u-lazy-load": "../../uni_modules/vk-uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-waterfall": "../../uni_modules/vk-uview-ui/components/u-waterfall/u-waterfall"
+  }
+}
