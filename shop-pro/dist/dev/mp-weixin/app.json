@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/write/write",
+    "pages/unused/unused",
+    "pages/buy/buy",
+    "pages/mine/mine",
+    "pages/unused/unused_detail",
+    "pages/buy_detail/buy_detail",
+    "pages/my_unused/my_unused",
+    "pages/my_buy/my_buy",
+    "pages/order/my_order",
+    "pages/order/sell_order",
+    "pages/cart/cart",
+    "pages/update_password/update_password",
+    "pages/my_collect/my_collect",
+    "pages/unused/unused_edit",
+    "pages/order/order_detail",
+    "pages/look_unused/look_unused",
+    "pages/look_buy/look_buy",
+    "pages/buy_edit/buy_edit",
+    "pages/user_info/user_info",
+    "pages/forget_password/forget_password"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "二手交易小程序",
+    "navigationBarBackgroundColor": "#FF7670",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF7670",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/unused/unused",
+        "iconPath": "static/unused.png",
+        "selectedIconPath": "static/unused_select.png",
+        "text": "闲置"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "iconPath": "static/write.png",
+        "selectedIconPath": "static/write_select.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/buy.png",
+        "selectedIconPath": "static/buy_select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/mine.png",
+        "selectedIconPath": "static/mine_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
